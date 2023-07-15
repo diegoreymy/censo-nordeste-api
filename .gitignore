@@ -1,0 +1,41 @@
+# Ignorar archivos y directorios generados por el sistema y compilados
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/target/
+**/build/
+
+# Ignorar archivos y directorios específicos de IDE
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# Ignorar directorio de configuración de Visual Studio Code
+
+### VS Code ###
+.vscode/
+
+# Ignorar archivo de configuración de la aplicación
+
+application.properties
