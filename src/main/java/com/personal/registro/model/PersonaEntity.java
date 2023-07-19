@@ -27,17 +27,11 @@ public class PersonaEntity {
     @Column(name="cedula", nullable = false, unique = true)
     private Long cedula;
 
-    @Column(name="pasaporteVencido")
-    private Boolean pasaporteVencido = false;
-
-    @Column(name="pasaporteVencimientoProximo")
-    private Boolean pasaporteVencimientoProximo = false;
-
-    @Column(name="pasaportePrimeraVez")
-    private Boolean pasaportePrimeraVez = false;
-
     @Column(name="ciudadResidencia")
     private String ciudadResidencia;
+
+    @Column(name="estadoPasaporte")
+    private String estadoPasaporte;
 
     @Column(name="estadoResidencia")
     private String estadoResidencia;
